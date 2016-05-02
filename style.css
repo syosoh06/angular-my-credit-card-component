@@ -1,0 +1,27 @@
+.input_container {
+    width: 210px;
+    height: 25px;
+    position: relative;
+}
+.input {
+    width: 200px; height: 25px; padding-left: 45px; margin: 0; font-size: 13px; border-radius: 5%;
+}
+.input_img {
+    position: absolute;
+    width: 30px;
+    margin-right: 0px; bottom:1px;
+    left:6px;
+}
+.directive_container {
+    background-color: #E6E3EC;
+    padding: 5px 2px 12px 5px;
+    width: 260px;
+}
+
+.directive_container p {
+    margin: 2px;
+}
+
+.span_star_marker {
+    color: deepskyblue;
+}

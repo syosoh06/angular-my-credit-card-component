@@ -1,45 +1,6 @@
-angular.module('soham-chak.my-credit-card-component', []);
-
-/*
-angular.module('soham-chak.my-credit-card-component', []).
-directive('scMyCreditCardDirective', function () {
-    // implementation goes here
-
-    var directive = {
-        restrict: 'E',
-        templateUrl: 'templates/credit-card-directive-template.html',
-        scope: {
-            max: '='
-        },
-        require: 'ngModel',
-        link: linkFunc
-    };
-
-    return directive;
-
-    function linkFunc(scope, el, attr, ctrl) {
-
-        scope.cardType=creditCardFactory.getCardType();
-        scope.logoUrl=creditCardFactory.getLogoUrl();
-
-        el.bind("keyup", function() {
-            changeCardLogoBasedOnInputChanges();
-        });
-
-        el.on('paste', function(){
-            changeCardLogoBasedOnInputChanges();
-        });
-
-        function changeCardLogoBasedOnInputChanges(){
-            console.log(scope.ccnumber);
-            creditCardFactory.identifyCardTypeAndSetLogo(scope.ccnumber);
-            scope.cardType = creditCardFactory.getCardType();
-            scope.logoUrl = creditCardFactory.getLogoUrl();
-        }
-    }
-
-
-});
+/**
+ * Created by sohamChakraborty on 4/30/16.
+ */
 
 angular
     .module('soham-chak.my-credit-card-component')
@@ -121,4 +82,4 @@ function creditCardFactory() {
     }
 
 
-}*/
+}
